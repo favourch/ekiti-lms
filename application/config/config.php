@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = defined('BASE_URL') ? BASE_URL : '';
-$config['base_url'] = '';
+$config['base_url'] = 'https://ekiti-lms.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
