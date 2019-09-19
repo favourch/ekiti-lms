@@ -1,0 +1,13 @@
+.ui-autocomplete-loading { 
+    background: #FFFFFF url("../img/ajax-loader.gif") no-repeat right center;
+}
+.profile 
+{
+    min-height: 355px;
+    display: inline-block;
+    width: 100%;
+}
+
+#PRData{
+  width: 100% !important;
+}

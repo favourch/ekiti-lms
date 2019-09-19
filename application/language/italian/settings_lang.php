@@ -1,0 +1,194 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+* Name:  Main Lang - English
+*
+* Author: Usman Sher
+* 		  uskhan099@gmail.com
+*         @usmansher
+*
+* Description:  English language file for Main views
+*
+*/
+
+$lang['settings_name'] = "Nome Istituto";
+$lang['settings_address'] = "Institute Indirizzo";
+$lang['settings_email'] = "Istituto Email";
+$lang['settings_phone'] = "Istituto Phone";
+$lang['settings_logo'] = "Logo";
+$lang['settings_favicon'] = "favicon";
+$lang['settings_fine'] = "bene";
+$lang['settings_fine_conf'] = "problema Config";
+$lang['settings_fine_limit_book'] = "Limite problema - Libri";
+$lang['settings_fine_limit_days'] = "Limite problema - Giorni";
+$lang['settings_fine_memwise'] = "Membri-Wise";
+$lang['settings_fine_syswide'] = "A livello di sistema";
+$lang['settings_currency'] = "Moneta";
+$lang['settings_tnc'] = "Termini & Condizioni";
+$lang['settings_save'] = "Salvare";
+$lang['settings_cancel'] = "Annulla";
+$lang['settings_title'] = "Impostazioni generali";
+$lang['login_title'] = "Accesso";
+$lang['login_title_subheading'] = "Accedi per iniziare la sessione";
+$lang['login_email'] = "E-mail";
+$lang['login_password'] = "parola d'ordine";
+$lang['remember_me'] = "Ricordati di me";
+$lang['login_in'] = "Log Me In";
+$lang['export_to_excel'] = "esportare in Excel";
+$lang['export_to_pdf'] = "Esporta in PDF";
+$lang['csv_format_error'] = "formato CSV è sbagliato.";
+
+
+$lang['email_heading'] = "Email / SMS Template";
+$lang['save_template_success'] = "Email / SMS modello salvato con successo";
+$lang['save_template_error'] = "Errore salvare i messaggi email / SMS Template";
+$lang['mail_message'] = "Email Template";
+$lang['short_tags'] = "brevi Tag";
+$lang['smtp_user'] = "utente SMTP";
+$lang['smtp_host'] = "Host SMTP";
+$lang['smtp_port'] = "porta SMTP";
+$lang['smtp_pass'] = "Passo SMTP";
+$lang['email_sent_error'] = "Email / SMS non inviato";
+$lang['lang_updated'] = "Lingua aggiornato con successo";
+$lang['lang_not_updated'] = "Errore durante in aggiornamento Lingua";
+$lang['sms_sent_success'] = "SMS (s) inviata con successo";
+$lang['toggle_alignment'] = "Allineamento Toggle";
+$lang['remind_due'] = "Ricordare";
+$lang['reminder_type'] = "Digitare";
+$lang['subject_reminder'] = "Soggetto";
+$lang['reminder_message'] = "Messaggio";
+$lang['select_type'] = "Selezionare il tipo di caricare un modello";
+$lang['send_label'] = "Inviare";
+$lang['email_label'] = "E-mail";
+$lang['sms_label'] = "sms";
+$lang['notify_delayed_no_days_limit_toggle'] = "Notifica Utenti se No Limit";
+$lang['issue_limit_days_extendable'] = "Due Date allungabile";
+$lang['settings_yes'] = "sì";
+$lang['settings_no'] = "No";
+$lang['book_issue_limit_exceed_books'] = 'Limite superato problema per i libri. Precedente libri non restituiti: %1$s, Issue Book - Limite: %2$s';
+
+
+$lang['print_barcode_title'] = 'Stampa di codici a barre (s)';
+$lang['print_label'] = 'Stampare';
+$lang['add_item'] = 'Aggiungi articolo';
+$lang['book_title_label'] = 'Titolo del libro';
+$lang['qty_label'] = 'Quantità.';
+$lang['style'] = 'Stile';
+$lang['30_per_sheet'] = '30 per foglio (2,625 "x 1")';
+$lang['20_per_sheet'] = '20 per foglio (4 "x 1")';
+$lang['14_per_sheet'] = '14 per foglio (4 "x 1.33")';
+$lang['10_per_sheet'] = '10 per foglio (4 "x 2")';
+$lang['40_per_sheet'] = '40 per foglio (A4) (1.799 "x 1.003")';
+$lang['24_per_sheet'] = '24 per foglio (A4) (2,48 "x 1.334")';
+$lang['18_per_sheet'] = '18 per foglio (a4) (2,5 "x 1.835")';
+$lang['12_per_sheet'] = '12 per foglio (A4) (2.5 "x 2.834")';
+$lang['continuous_feed'] = 'alimentazione continua';
+$lang['print_barcode_heading'] = 'È possibile visitare %s e il %s di aggiungere libri a questa lista la stampa.';
+$lang['barcode_tip'] = 'Si prega di non dimenticare di impostare le dimensioni della pagina corretta e il margine per la stampante. È possibile impostare a destra e in basso a 0 mentre il margine sinistro e superiore può essere regolata in base alle vostre necessità.';
+$lang['width'] = 'Larghezza';
+$lang['height'] = 'Altezza';
+$lang['inches'] = 'Pollici';
+$lang['orientation'] = 'Orientamento';
+$lang['portrait'] = 'Ritratto';
+$lang['landscape'] = 'Paesaggio';
+$lang['print'] = 'Stampare';
+$lang['site_name'] = 'Nome del sito';
+$lang['product_name'] = 'Nome libro';
+$lang['price'] = 'Prezzo';
+$lang['category'] = 'Categoria';
+$lang['author'] = 'Autore';
+$lang['product_image'] = 'Copertina Immagine';
+$lang['update'] = 'Aggiornare';
+$lang['reset'] = 'Reset';
+$lang['no_book_selected'] = 'Nessun libro selezionato';
+$lang['no_book_found'] = 'Nessun libro trovato';
+$lang['unexpected_value'] = 'Valore imprevisto';
+$lang['product_added_to_list'] = "Libro aggiunto all'elenco";
+$lang['books_custom_fields'] = "Libri - I campi personalizzati";
+
+//Menu
+$lang['menu_home'] = "Casa";
+$lang['menu_book_title'] = "libri";
+$lang['menu_book_list'] = "Lista";
+$lang['menu_add_book'] = "Aggiungere";
+$lang['menu_authors'] = "autori";
+$lang['menu_categories'] = "Categorie";
+$lang['menu_importbooks'] = "Importa CSV";
+$lang['menu_labelprint'] = "Etichetta / Barcode Stampa";
+$lang['menu_circulation'] = "Circolazione";
+$lang['menu_issue_book'] = "Problema Book (s)";
+$lang['menu_return_book'] = "Return Book (s)";
+$lang['menu_borrowed_books'] = "libri presi in prestito";
+$lang['menu_lost_books'] = "libri persa";
+$lang['menu_returned_book'] = "tornati libro";
+$lang['menu_delated_title'] = "Notifica Membri ritardati";
+$lang['menu_notify_delayed'] = "Notificare";
+$lang['menu_send_templates'] = "Modelli Email / SMS";
+$lang['menu_admin_panel'] = "Pannello admin";
+$lang['menu_admin_users'] = "utenti";
+$lang['menu_create_users'] = "Crea utente";
+$lang['menu_member_types'] = "Tipo membro";
+$lang['menu_occupations'] = "occupazioni";
+$lang['menu_settings_title'] = "impostazioni";
+$lang['menu_settings'] = "impostazioni";
+$lang['menu_db_version'] = "versioni del database";
+$lang['menu_smsconfig'] = "SMS Config";
+$lang['menu_mybooks_title'] = "I miei libri";
+$lang['menu_mybooks'] = "I miei libri";
+$lang['menu_circulation_history'] = "Storia di circolazione";
+$lang['menu_reports_title'] = "Rapporti";
+$lang['menu_qinventory'] = "inventario rapido";
+
+$lang['menu_requested_books'] = "libri richiesti";
+$lang['menu_add_requested_books'] = "Richiedi";
+$lang['menu_list_requested_books'] = "Elenco richiesta Libri";
+$lang['email_request'] = "Prenota Richiesta - E-mail";
+$lang['sms_request'] = "Prenota Richiesta - SMS";
+$lang['request_title'] = "libri richiesti";
+$lang['request_book_add'] = "Richiedi";
+$lang['add_request_book_title'] = "Aggiungere un Libro Richiesta";
+$lang['update_request_book_title'] = "Aggiornamento Libro Richiesta";
+$lang['request_member_name'] = "Nome del membro";
+$lang['request_book_title'] = "Titolo del libro";
+$lang['request_author_name'] = "Nome dell'autore";
+$lang['request_year'] = "Anno";
+$lang['request_remarks'] = "Osservazioni";
+$lang['request_date'] = "Data";
+$lang['request_status'] = "Stato";
+$lang['request_actions'] = "Azione";
+$lang['request_submitted'] = "La tua richiesta sono state presentate";
+$lang['request_not_submitted'] = "Errore submiting tua richiesta";
+$lang['pending_delete'] = "Solo In attesa di richiesta può essere cancellato";
+$lang['pending_user_delete'] = "è possibile eliminare soltanto le richieste fatte da voi";
+$lang['pending_update'] = "Solo In attesa di richiesta può essere aggiornato";
+$lang['pending_user_update'] = "è possibile aggiornare soltanto le richieste fatte da voi";
+$lang['deleted_request'] = "Eliminato correttamente la tua richiesta";
+$lang['updated_request'] = "La tua richiesta sono state aggiornate";
+$lang['not_updated_request'] = "Errore aggiornamento Richiesta";
+$lang['pending'] = "in attesa di";
+$lang['approve'] = "Approvare";
+$lang['approved'] = "Approvato";
+$lang['reject'] = "Rifiutare";
+$lang['rejected'] = "Respinto";
+$lang['ready'] = "Pronto per la collezione";
+$lang['status_marked'] = "Stato contrassegnati come '%s'.";
+$lang['error_request'] = "Qualcosa è andato storto. sistema di contatto amministratore";
+$lang['email_sent_true'] = "Email inviata.";
+$lang['email_not_sent'] = "Email non inviata.";
+$lang['sms_sent'] = "SMS inviato.";
+$lang['sms_not_sent'] = "SMS non inviato.";
+$lang['rows_deleted_req'] = "Elimina righe con successo";
+$lang['not_deleted_req'] = "Nessun record eliminati";
+$lang['submit'] = "invio";
+$lang['purge_label'] = "Purge %s giorni di richiesta.";
+$lang['req_book_status_title'] = "Richiesto Stato libri";
+$lang['menu_edit_request'] = "Modifica Richiesta";
+$lang['email_template_title'] = "Email Template";
+$lang['sms_template_title'] = "modello di SMS";
+$lang['reject_request_sent'] = "Respinto";
+$lang['approve_request_sent'] = "Approvare";
+$lang['ready_request_sent'] = "Pronto";
+$lang['book_list'] = "libri";
+$lang['book_title_name'] = "Titolo libro / Nome";
+$lang['select_author'] = "Selezionare Autore";
+$lang['select_category'] = "Seleziona categoria";
+$lang['search'] = "Ricerca";

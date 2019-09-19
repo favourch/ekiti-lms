@@ -1,0 +1,194 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+* Name:  Main Lang - English
+*
+* Author: Usman Sher
+* 		  uskhan099@gmail.com
+*         @usmansher
+*
+* Description:  English language file for Main views
+*
+*/
+$lang['settings_name'] = "اسم المعهد";
+$lang['settings_address'] = "معهد عنوان";
+$lang['settings_email'] = "معهد البريد الإلكتروني";
+$lang['settings_phone'] = "معهد الهاتف";
+$lang['settings_logo'] = "شعار";
+$lang['settings_favicon'] = "فافيكون";
+$lang['settings_fine'] = "غرامة";
+$lang['settings_fine_conf'] = "التكوين قضية";
+$lang['settings_fine_limit_book'] = "الحد المسألة - كتب";
+$lang['settings_fine_limit_days'] = "الحد المسألة - أيام";
+$lang['settings_fine_memwise'] = "الأعضاء حكيم";
+$lang['settings_fine_syswide'] = "نظام اسعة";
+$lang['settings_currency'] = "عملة";
+$lang['settings_tnc'] = "البنود و الظروف";
+$lang['settings_save'] = "حفظ";
+$lang['settings_cancel'] = "إلغاء";
+$lang['settings_title'] = "الاعدادات العامة";
+$lang['login_title'] = "تسجيل الدخول";
+$lang['login_title_subheading'] = "تسجيل الدخول إلى بدء جلسة العمل الخاصة بك";
+$lang['login_email'] = "البريد الإلكتروني";
+$lang['login_password'] = "كلمه السر";
+$lang['remember_me'] = "تذكرنى";
+$lang['login_in'] = "تسجيل البيانات في";
+$lang['export_to_excel'] = "تصدير إلى Excel";
+$lang['export_to_pdf'] = "تصدير إلى PDF";
+$lang['csv_format_error'] = "تنسيق CSV هو خاطئ.";
+
+
+$lang['email_heading'] = "البريد الالكتروني / قالب SMS";
+$lang['save_template_success'] = "البريد الإلكتروني قالب / SMS تم الحفظ بنجاح";
+$lang['save_template_error'] = "خطأ حفظ البريد الالكتروني / قالب SMS";
+$lang['mail_message'] = "قالب البريد الإلكتروني";
+$lang['short_tags'] = "الكلمات القصيرة";
+$lang['smtp_user'] = "SMTP العضو";
+$lang['smtp_host'] = "المضيف SMTP";
+$lang['smtp_port'] = "ميناء SMTP";
+$lang['smtp_pass'] = "ممر SMTP";
+$lang['email_sent_error'] = "البريد الإلكتروني / الرسائل القصيرة المرسلة لا";
+$lang['lang_updated'] = "لغة التحديث بنجاح";
+$lang['lang_not_updated'] = "خطأ أثناء تحديث اللغة";
+$lang['sms_sent_success'] = "الرسائل القصيرة (ق) ترسل بنجاح";
+$lang['toggle_alignment'] = "محاذاة تبديل";
+$lang['remind_due'] = "تذكير";
+$lang['reminder_type'] = "اكتب";
+$lang['subject_reminder'] = "موضوع";
+$lang['reminder_message'] = "الرسالة";
+$lang['select_type'] = "الرجاء اختيار نوع لتحميل قالب";
+$lang['send_label'] = "إرسال";
+$lang['email_label'] = "البريد الإلكتروني";
+$lang['sms_label'] = "رسالة قصيرة";
+$lang['notify_delayed_no_days_limit_toggle'] = "بإخطار الأعضاء إذا لا حدود";
+$lang['issue_limit_days_extendable'] = "تاريخ الاستحقاق للتمديد";
+$lang['settings_yes'] = "نعم فعلا";
+$lang['settings_no'] = "لا";
+$lang['book_issue_limit_exceed_books'] = 'الحد قضية تجاوز للكتب. كتب لم يرجعوا السابقة: ٪1$s، العدد كتاب - الحد: ٪2$s';
+
+$lang['print_barcode_title'] = 'الباركود طباعة (ق)';
+$lang['print_label'] = 'طباعة';
+$lang['add_item'] = 'اضافة عنصر';
+$lang['book_title_label'] = 'عنوان كتاب';
+$lang['qty_label'] = 'الكمية.';
+$lang['style'] = 'نمط';
+$lang['30_per_sheet'] = '30 لكل ورقة (2.625" x 1")';
+$lang['20_per_sheet'] = '20 لكل ورقة (4" x 1")';
+$lang['14_per_sheet'] = '14 لكل ورقة (4" × 1.33")';
+$lang['10_per_sheet'] = '10 لكل ورقة (4" × 2")';
+$lang['40_per_sheet'] = '40 لكل ورقة (A4) (1.799" x 1.003")';
+$lang['24_per_sheet'] = '24 لكل ورقة (A4) (2.48" x 1.334")';
+$lang['18_per_sheet'] = '18 لكل ورقة (A4) (2.5" x 1.835")';
+$lang['12_per_sheet'] = '12 لكل ورقة (A4) (2.5" x 2.834")';
+$lang['continuous_feed'] = 'تغذية مستمرة';
+$lang['print_barcode_heading'] = 'يمكنك زيارة %s و %s لإضافة الكتب إلى هذه القائمة الطباعة.';
+$lang['barcode_tip'] = 'من فضلك لا تنسى لتحديد الصحيح حجم الصفحة والهامش للطابعة. يمكنك تعيين الأيمن وأسفل إلى 0 بينما الهامش الأيسر وأعلى يمكن تعديلها وفقا للحاجة الخاصة بك.';
+$lang['width'] = 'عرض';
+$lang['height'] = 'ارتفاع';
+$lang['inches'] = 'بوصة';
+$lang['orientation'] = 'توجيه';
+$lang['portrait'] = 'صورة';
+$lang['landscape'] = 'المناظر الطبيعيه';
+$lang['print'] = 'طباعة';
+$lang['site_name'] = 'اسم الموقع';
+$lang['product_name'] = 'اسم الكتاب';
+$lang['price'] = 'السعر';
+$lang['category'] = 'فئة';
+$lang['author'] = 'مؤلف';
+$lang['product_image'] = 'غلاف الكتاب صورة';
+$lang['update'] = 'تحديث';
+$lang['reset'] = 'إعادة تعيين';
+$lang['no_book_selected'] = 'لا يوجد كتب مختارة';
+$lang['no_book_found'] = 'لا كتاب وجدت';
+$lang['unexpected_value'] = 'قيمة غير متوقعة';
+
+$lang['product_added_to_list'] = "وأضاف الكتاب إلى قائمة";
+$lang['books_custom_fields'] = "كتب - الحقول المخصصة";
+
+
+//Menu
+$lang['menu_home'] = "الصفحة الرئيسية";
+$lang['menu_book_title'] = "كتب";
+$lang['menu_book_list'] = "قائمة";
+$lang['menu_add_book'] = "إضافة كتاب";
+$lang['menu_authors'] = "الكتاب";
+$lang['menu_categories'] = "الفئات";
+$lang['menu_importbooks'] = "استيراد CSV";
+$lang['menu_labelprint'] = "التسمية / الباركود طباعة";
+$lang['menu_circulation'] = "تداول";
+$lang['menu_issue_book'] = "قضية كتاب (ق)";
+$lang['menu_return_book'] = "عودة كتاب (ق)";
+$lang['menu_borrowed_books'] = "كتب اقترضت";
+$lang['menu_lost_books'] = "كتب خسر";
+$lang['menu_returned_book'] = "عاد كتاب";
+$lang['menu_delated_title'] = "بإخطار الأعضاء مؤجل";
+$lang['menu_notify_delayed'] = "أبلغ";
+$lang['menu_send_templates'] = "قوالب البريد الإلكتروني / الرسائل القصيرة";
+$lang['menu_admin_panel'] = "لوحة الادارة";
+$lang['menu_admin_users'] = "المستخدمين";
+$lang['menu_create_users'] = "أنشئ مستخدما";
+$lang['menu_member_types'] = "نوع العضو";
+$lang['menu_occupations'] = "المهن";
+$lang['menu_settings_title'] = "إعدادات";
+$lang['menu_settings'] = "إعدادات";
+$lang['menu_db_version'] = "إصدارات قاعدة البيانات";
+$lang['menu_smsconfig'] = "التكوين SMS";
+$lang['menu_mybooks_title'] = "كتبي";
+$lang['menu_mybooks'] = "كتبي";
+$lang['menu_circulation_history'] = "سجل التداول";
+$lang['menu_reports_title'] = "تقارير";
+$lang['menu_qinventory'] = "جرد سريع";
+
+$lang['menu_requested_books'] = "كتب طلب";
+$lang['menu_add_requested_books'] = "طلب كتاب";
+$lang['menu_list_requested_books'] = "قائمة طلب كتب";
+$lang['email_request'] = "كتاب طلب - البريد الإلكتروني";
+$lang['sms_request'] = "كتاب طلب - SMS";
+$lang['request_title'] = "كتب طلب";
+$lang['request_book_add'] = "طلب كتاب";
+$lang['add_request_book_title'] = "إضافة طلب كتاب";
+$lang['update_request_book_title'] = "تحديث طلب دفتر";
+$lang['request_member_name'] = "اسم عضو";
+$lang['request_book_title'] = "عنوان كتاب";
+$lang['request_author_name'] = "اسم المؤلف";
+$lang['request_year'] = "عام";
+$lang['request_remarks'] = "ملاحظات";
+$lang['request_date'] = "تاريخ";
+$lang['request_status'] = "الحالة";
+$lang['request_actions'] = "عمل";
+$lang['request_submitted'] = "قدمت طلب الخاص بك";
+$lang['request_not_submitted'] = "خطأ سوبميتنغ طلب الخاص بك";
+$lang['pending_delete'] = "يمكن حذف فقط طلب ريثما";
+$lang['pending_user_delete'] = "يمكنك فقط حذف الطلبات التي قدمتها لكم";
+$lang['pending_update'] = "يمكن تحديثها فقط طلب ريثما";
+$lang['pending_user_update'] = "يمكنك تحديث فقط الطلبات التي قدمتها لكم";
+$lang['deleted_request'] = "المحذوفة بنجاح طلب الخاص بك";
+$lang['updated_request'] = "تم تحديثها طلب الخاص بك";
+$lang['not_updated_request'] = "حدث خطأ أثناء تحديث طلب الخاص بك";
+$lang['pending'] = "ريثما";
+$lang['approve'] = "وافق";
+$lang['approved'] = "موافق عليه";
+$lang['reject'] = "رفض";
+$lang['rejected'] = "مرفوض";
+$lang['ready'] = "جاهزة للمجموعة";
+$lang['status_marked'] = "الحالة وضع علامة '%s'.";
+$lang['error_request'] = "فهناك شيء ما خطأ. المشرف نظام الاتصال";
+$lang['email_sent_true'] = "أرسل البريد الإلكتروني.";
+$lang['email_not_sent'] = "البريد الإلكتروني غير المرسلة.";
+$lang['sms_sent'] = "المرسلة SMS.";
+$lang['sms_not_sent'] = "SMS لا المرسلة.";
+$lang['rows_deleted_req'] = "الصفوف حذف بنجاح";
+$lang['not_deleted_req'] = "لا السجلات المحذوفة";
+$lang['submit'] = "عرض";
+$lang['purge_label'] = "أيام %s تطهير طلب من العمر.";
+$lang['req_book_status_title'] = "طلب الحصول على وضع كتاب";
+$lang['menu_edit_request'] = "تحرير طلب";
+$lang['email_template_title'] = "قالب البريد الإلكتروني";
+$lang['sms_template_title'] = "قالب SMS";
+$lang['reject_request_sent'] = "مرفوض";
+$lang['approve_request_sent'] = "وافق";
+$lang['ready_request_sent'] = "جاهز";
+$lang['book_list'] = "كتب";
+$lang['book_title_name'] = "عنوان الكتاب / اسم";
+$lang['select_author'] = "حدد الكاتب";
+$lang['select_category'] = "اختر الفئة";
+$lang['search'] = "بحث";

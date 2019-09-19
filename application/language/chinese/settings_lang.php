@@ -1,0 +1,195 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+* Name:  Main Lang - English
+*
+* Author: Usman Sher
+* 		  uskhan099@gmail.com
+*         @usmansher
+*
+* Description:  English language file for Main views
+*
+*/
+$lang['settings_name'] = "學院名稱";
+$lang['settings_address'] = "學院地址";
+$lang['settings_email'] = "研究所電子郵件";
+$lang['settings_phone'] = "研究所電話";
+$lang['settings_logo'] = "商標";
+$lang['settings_favicon'] = "網站圖標";
+$lang['settings_fine'] = "精細";
+$lang['settings_fine_conf'] = "配置問題";
+$lang['settings_fine_limit_book'] = "發售限額 - 圖書";
+$lang['settings_fine_limit_days'] = "發行限制 - 天";
+$lang['settings_fine_memwise'] = "各位英明";
+$lang['settings_fine_syswide'] = "全系統";
+$lang['settings_currency'] = "貨幣";
+$lang['settings_tnc'] = "條款和條件";
+$lang['settings_save'] = "保存";
+$lang['settings_cancel'] = "取消";
+$lang['settings_title'] = "常規設置";
+$lang['login_title'] = "登錄";
+$lang['login_title_subheading'] = "登錄啟動會話";
+$lang['login_email'] = "電子郵件";
+$lang['login_password'] = "密碼";
+$lang['remember_me'] = "記住我";
+$lang['login_in'] = "登錄我";
+$lang['export_to_excel'] = "導出到Excel";
+$lang['export_to_pdf'] = "導出為PDF";
+$lang['csv_format_error'] = "CSV格式是錯誤的。";
+
+
+$lang['email_heading'] = "電子郵件/短信模板";
+$lang['save_template_success'] = "電子郵件/短信模板成功保存";
+$lang['save_template_error'] = "錯誤保存電子郵件/短信模板";
+$lang['mail_message'] = "電子郵件模板";
+$lang['short_tags'] = "短標籤";
+$lang['smtp_user'] = "SMTP用戶";
+$lang['smtp_host'] = "SMTP主機";
+$lang['smtp_port'] = "SMTP端口";
+$lang['smtp_pass'] = "SMTP通行證";
+$lang['email_sent_error'] = "電子郵件/短信未發送";
+$lang['lang_updated'] = "語言更新成功";
+$lang['lang_not_updated'] = "同時更新語言錯誤";
+$lang['sms_sent_success'] = "短信已成功發送";
+$lang['toggle_alignment'] = "切換對齊";
+$lang['remind_due'] = "提醒";
+$lang['reminder_type'] = "類型";
+$lang['subject_reminder'] = "學科";
+$lang['reminder_message'] = "信息";
+$lang['select_type'] = "請選擇類別加載模板";
+$lang['send_label'] = "發送";
+$lang['email_label'] = "電子郵件";
+$lang['sms_label'] = "短信";
+$lang['notify_delayed_no_days_limit_toggle'] = "通知會員，如果沒有限制";
+$lang['issue_limit_days_extendable'] = "到期日可擴展";
+$lang['settings_yes'] = "是";
+$lang['settings_no'] = "沒有";
+$lang['book_issue_limit_exceed_books'] = '發行超限圖書。上一頁未退回的書：％1$s，發行圖書 - 限制：％2$s';
+
+$lang['print_barcode_title'] = '打印條碼（S）';
+$lang['print_label'] = '打印';
+$lang['add_item'] = '新增項目';
+$lang['book_title_label'] = '書名';
+$lang['isbn_label'] = '國際標準書號';
+$lang['qty_label'] = '數量。';
+$lang['style'] = '樣式';
+$lang['30_per_sheet'] = '30每片（2.625“×1”）';
+$lang['20_per_sheet'] = '20每片（4“×1”）';
+$lang['14_per_sheet'] = '14％的板材（4“×1.33”）';
+$lang['10_per_sheet'] = '10每片（4“×2”）';
+$lang['40_per_sheet'] = '40每張（A4），（1.799“×1.003”）';
+$lang['24_per_sheet'] = '24每張（A4）（2.48“×1.334”）';
+$lang['18_per_sheet'] = '18每張（A4）（2.5“×1.835”）';
+$lang['12_per_sheet'] = '12每張（A4）（2.5“×2.834”）';
+$lang['continuous_feed'] = '連續進料';
+$lang['print_barcode_heading'] = '您可以訪問 %s 和 %s 以書籍添加到這個列表的打印。';
+$lang['barcode_tip'] = '請不要忘記設置正確頁面大小和保證金的打印機。您可以設置右側和底部為0，而左側和頂部邊距可以根據您的需要進行調整。';
+$lang['width'] = '寬度';
+$lang['height'] = '高度';
+$lang['inches'] = '英寸';
+$lang['orientation'] = '方向';
+$lang['portrait'] = '肖像';
+$lang['landscape'] = '景觀';
+$lang['print'] = '打印';
+$lang['site_name'] = '網站名稱';
+$lang['product_name'] = '書名';
+$lang['price'] = '價錢';
+$lang['category'] = '類別';
+$lang['author'] = '作者';
+$lang['product_image'] = '圖書封面圖片';
+$lang['update'] = '更新';
+$lang['reset'] = '重啟';
+$lang['no_book_selected'] = '沒有選書';
+$lang['no_book_found'] = '沒有找到書';
+$lang['unexpected_value'] = '意外的值';
+
+$lang['product_added_to_list'] = "圖書添加到列表";
+$lang['books_custom_fields'] = "書籍 - 自定義字段";
+
+
+//Menu
+$lang['menu_home'] = "家";
+$lang['menu_book_title'] = "圖書";
+$lang['menu_book_list'] = "列表";
+$lang['menu_add_book'] = "添加圖書";
+$lang['menu_authors'] = "作者";
+$lang['menu_categories'] = "分類";
+$lang['menu_importbooks'] = "導入CSV";
+$lang['menu_labelprint'] = "標籤/條碼打印";
+$lang['menu_circulation'] = "循環";
+$lang['menu_issue_book'] = "問題書";
+$lang['menu_return_book'] = "退貨簿";
+$lang['menu_borrowed_books'] = "借書";
+$lang['menu_lost_books'] = "失去的書";
+$lang['menu_returned_book'] = "返回書";
+$lang['menu_delated_title'] = "通知延遲的成員";
+$lang['menu_notify_delayed'] = "通知";
+$lang['menu_send_templates'] = "電子郵件/短信模板";
+$lang['menu_admin_panel'] = "管理面板";
+$lang['menu_admin_users'] = "用戶";
+$lang['menu_create_users'] = "創建用戶";
+$lang['menu_member_types'] = "成員類型";
+$lang['menu_occupations'] = "職業";
+$lang['menu_settings_title'] = "設置";
+$lang['menu_settings'] = "設置";
+$lang['menu_db_version'] = "數據庫版本";
+$lang['menu_smsconfig'] = "短信配置";
+$lang['menu_mybooks_title'] = "我的書";
+$lang['menu_mybooks'] = "我的書";
+$lang['menu_circulation_history'] = "流通歷史";
+$lang['menu_reports_title'] = "報告";
+$lang['menu_qinventory'] = "快速庫存";
+
+$lang['menu_requested_books'] = "請求的圖書";
+$lang['menu_add_requested_books'] = "請求預訂";
+$lang['menu_list_requested_books'] = "列出請求的圖書";
+$lang['email_request'] = "請求書 - 電子郵件";
+$lang['sms_request'] = "請求書 - 短信";
+$lang['request_title'] = "請求的圖書";
+$lang['request_book_add'] = "請求預訂";
+$lang['add_request_book_title'] = "添加圖書請求";
+$lang['update_request_book_title'] = "更新預訂請求";
+$lang['request_member_name'] = "成員名字";
+$lang['request_book_title'] = "書名";
+$lang['request_author_name'] = "作者名稱";
+$lang['request_year'] = "年";
+$lang['request_remarks'] = "備註";
+$lang['request_date'] = "日期";
+$lang['request_status'] = "狀態";
+$lang['request_actions'] = "行動";
+$lang['request_submitted'] = "您的請求已提交";
+$lang['request_not_submitted'] = "提交請求時出錯";
+$lang['pending_delete'] = "只能刪除待處理請求";
+$lang['pending_user_delete'] = "您只能刪除您發出的請求";
+$lang['pending_update'] = "只能更新待處理請求";
+$lang['pending_user_update'] = "您只能更新您的請求";
+$lang['deleted_request'] = "已成功刪除您的請求";
+$lang['updated_request'] = "您的請求已更新";
+$lang['not_updated_request'] = "更新您的請求時出錯";
+$lang['pending'] = "待定";
+$lang['approve'] = "批准";
+$lang['approved'] = "批准";
+$lang['reject'] = "拒絕";
+$lang['rejected'] = "拒絕";
+$lang['ready'] = "準備收集";
+$lang['status_marked'] = "狀態標記為 “%s”。";
+$lang['error_request'] = "有東西出了問題。 聯繫系統管理員";
+$lang['email_sent_true'] = "郵件已發送。";
+$lang['email_not_sent'] = "電子郵件未發送。";
+$lang['sms_sent'] = "短信已發送。";
+$lang['sms_not_sent'] = "短信未發送。";
+$lang['rows_deleted_req'] = "行成功刪除";
+$lang['not_deleted_req'] = "未刪除記錄";
+$lang['submit'] = "提交";
+$lang['purge_label'] = "清除%s天的請求。";
+$lang['req_book_status_title'] = "請求的圖書狀態";
+$lang['menu_edit_request'] = "編輯請求";
+$lang['email_template_title'] = "電子郵件模板";
+$lang['sms_template_title'] = "短信模板";
+$lang['reject_request_sent'] = "拒絕";
+$lang['approve_request_sent'] = "批准";
+$lang['ready_request_sent'] = "準備";
+$lang['book_list'] = "圖書";
+$lang['book_title_name'] = "書名/名稱";
+$lang['select_author'] = "選擇作者";
+$lang['select_category'] = "選擇類別";
+$lang['search'] = "搜索";
